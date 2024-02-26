@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: helloefty/frontendv1:latest
+          image: helloefty/frontendV1:latest
           imagePullPolicy: Always
           env:
             - name: REACT_APP_BACKEND_URL
